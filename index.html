@@ -30,22 +30,38 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city" required />
-          <input type="submit" value="Search" />
+        <form class="searchform">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <h1>Zurich</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm"><h1 class="city">Zurich</h1></div>
+          </div>
+        </div>
 
         <div class="container">
           <div class="row">
             <div class="col-sm">
-              <p>
-                Sunday 16:43, light rain <br />Humidity: 92%, Wind: 4.63km/h
+              <p class="weather-details">
+                Sunday 16:43, light rain <br />Humidity: <strong>92%</strong>,
+                Wind: <strong>4.63km/h</strong>
               </p>
             </div>
-            <div class="col-sm"><div>🌧 7°C</div></div>
+            <div class="col-sm">
+              <div class="weather-icon-temperature">
+                <div class="weather-icon">🌧</div>
+                <div class="weather-temperature">7</div>
+                <div class="weather-unit">°C</div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
