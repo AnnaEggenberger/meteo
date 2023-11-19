@@ -30,12 +30,13 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="searchform">
+        <form class="searchform" id="search-form">
           <input
             type="search"
             placeholder="Enter a city"
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -43,7 +44,7 @@
       <main>
         <div class="container">
           <div class="row">
-            <div class="col-sm"><h1 class="city">Zurich</h1></div>
+            <div class="col-sm"><h1 class="city" id="city">Zurich</h1></div>
           </div>
         </div>
 
@@ -80,5 +81,6 @@
         >.
       </footer>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
