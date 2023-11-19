@@ -48,12 +48,11 @@ main {
 .city {
   margin: 0;
   font-size: 38px;
-  line-height: 48px;
+  line-height: 80px;
 }
 
 .weather-details {
   font-size: 16px;
-  line-height: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -65,22 +64,23 @@ main {
 
 .weather-icon-temperature {
   display: flex;
-  padding: 0 20px 20px 0;
 }
 
 .weather-icon {
-  font-size: 24px;
+  height: 80px;
   margin-top: 15px;
 }
 
 .weather-temperature {
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 600;
   margin-left: 10px;
+  margin-top: 15px;
+  line-height: 80px;
 }
 
 .weather-unit {
-  margin-top: 8px;
+  margin-top: 25px;
   font-size: 18px;
 }
 
