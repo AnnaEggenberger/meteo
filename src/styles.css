@@ -10,7 +10,7 @@ a {
 .weather-app {
   background: white;
   max-width: 600px;
-  margin: 45px auto;
+  margin: 30px auto;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 20px;
@@ -117,8 +117,8 @@ main {
 
 footer {
   border-top: 1px solid #f5e9e4;
-  padding: 30px 0 0 0;
   text-align: center;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
 }
